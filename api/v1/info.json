@@ -1,0 +1,26 @@
+{
+  "apiVersion": "1.0.0",
+  "swaggerVersion": "1.2",
+  "basePath": "http://localhost:4567/api",
+  "resourcePath": "/info",
+  "produces": [
+    "application/xml"
+  ],
+  "authorizations": {},
+  "apis": [
+    {
+      "path": "/info",
+      "operations": [
+        {
+          "method": "GET",
+          "summary": "Operation status",
+          "notes": "You can get information about the base station (as frequency, power, rxgain, operationstatus) by calling /bs/info . Operation status: 3->maintenance, 2->outofservice, 1->inservice",
+          "nickname": "getInfo",
+          "authorizations": [],
+          "parameters": [],
+          "responseMessages": []
+        }
+      ]
+    }
+  ]
+}

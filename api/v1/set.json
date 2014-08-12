@@ -1,0 +1,26 @@
+{
+  "apiVersion": "1.0.0",
+  "swaggerVersion": "1.2",
+  "basePath": "http://localhost:4567/api",
+  "resourcePath": "/set",
+  "produces": [
+    "application/xml"
+  ],
+  "authorizations": {},
+  "apis": [
+    {
+      "path": "/set",
+      "operations": [
+        {
+          "method": "PATCH",
+          "summary": "Set static parameters",
+          "notes": "In order to set the value of a parameter, call /bs/set?ParamName=value. You can set more than one parameter in one call by seperating each set with commas. As ParamName you can give any parameter name from the following list: dlarq, ularq, hlharq1, dlharq2, ulharq1, ulharq2, ackchannels, sachallengetimer, sachallengemaxresend, teklifetime, tekchangeovertime, insecurestationallowed, pkmv1allowed, pkmv2allowed, aeswrap, noencryption, resourceretaintimeout, idlemodetimeout, resourceholdtimeout, maxulallocation, maxdlallocation, dlulgap, uldlgap, numexpectedss, regtimeout, phyenabled, maxreprspfails, txpower, rngreqtimeout, bwmode, dlulratio, rangeframe, fftsize, useframe1, useframe2, useframe3, useframe4, hotimetotrigger, txpowerlimitenabled, txpowerlimit, ranginginterval, dregcmdwait, dregcmdretries, dlpermutationbase, reportingbase, powercontrolmode, niieperiod, maxtxpowerbackoff, carriersensehysteresis, carriersenseperiod, privmapmode, fbscanenabled, type, useallsubchannels, maxproportion, permutationbase, stccode, stcmatrix, acmtype, dedicatedpilots, slotsdivup, slotsdivdl",
+          "nickname": "setDlarq",
+          "authorizations": [],
+          "parameters": [],
+          "responseMessages": []
+        }
+      ]
+    }
+  ]
+}

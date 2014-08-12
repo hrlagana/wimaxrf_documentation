@@ -1,0 +1,26 @@
+{
+  "apiVersion": "1.0.0",
+  "swaggerVersion": "1.2",
+  "basePath": "http://localhost:4567/api",
+  "resourcePath": "/maintenance",
+  "produces": [
+    "text/plain"
+  ],
+  "authorizations": {},
+  "apis": [
+    {
+      "path": "/maintenance",
+      "operations": [
+        {
+          "method": "GET",
+          "summary": "",
+          "notes": "Set base station to maintenance state by calling /bs/maintenance",
+          "nickname": "getMaintance",
+          "authorizations": [],
+          "parameters": [],
+          "responseMessages": []
+        }
+      ]
+    }
+  ]
+}
