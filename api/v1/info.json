@@ -14,7 +14,7 @@
         {
           "method": "GET",
           "summary": "Operation status",
-          "notes": "You can get information about the base station (as frequency, power, rxgain, operationstatus) by calling /bs/info . Operation status: 3->maintenance, 2->outofservice, 1->inservice",
+          "notes": "You can get information about the base station (as frequency, power, rxgain, operationstatus) by calling <b>/bs/info</b> . Operation status: 3->maintenance, 2->outofservice, 1->inservice",
           "nickname": "getInfo",
           "authorizations": [],
           "parameters": [],

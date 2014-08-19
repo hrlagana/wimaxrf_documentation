@@ -14,7 +14,7 @@
         {
           "method": "GET",
           "summary": "",
-          "notes": "To set parameters to default values call /bs/default",
+          "notes": "To set parameters to default values call <b>/bs/default</b>",
           "nickname": "setDefault",
           "authorizations": [],
           "parameters": [],

@@ -14,7 +14,7 @@
         {
           "method": "GET",
           "summary": "",
-          "notes": "Set base station to inservice state by calling /bs/inservice",
+          "notes": "Set base station to inservice state by calling <b>/bs/inservice</b>",
           "nickname": "getMaintance",
           "authorizations": [],
           "parameters": [],

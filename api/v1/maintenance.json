@@ -14,7 +14,7 @@
         {
           "method": "GET",
           "summary": "",
-          "notes": "Set base station to maintenance state by calling /bs/maintenance",
+          "notes": "Set base station to maintenance state by calling <b>/bs/maintenance</b>",
           "nickname": "getMaintance",
           "authorizations": [],
           "parameters": [],

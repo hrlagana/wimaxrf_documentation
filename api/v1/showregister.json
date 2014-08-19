@@ -14,7 +14,7 @@
         {
           "method": "GET",
           "summary": "",
-          "notes": "Get all registered mobile stations by calling /mobileclient/showregister",
+          "notes": "Get all registered mobile stations by calling <b>/mobileclient/showregister</b>",
           "nickname": "getShowregister",
           "authorizations": [],
           "parameters": [],

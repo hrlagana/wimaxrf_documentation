@@ -8,6 +8,7 @@ require 'json'
 class DocServer < Sinatra::Base
 
   set :public_folder, 'swagger-ui/dist'
+  set :bind, '0.0.0.0'
 
   before do
     response.headers['Access-Control-Allow-Origin'] = '*'

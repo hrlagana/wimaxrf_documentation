@@ -14,7 +14,7 @@
         {
           "method": "GET",
           "summary": "",
-          "notes": "Restart the base station by calling /bs/restart",
+          "notes": "Restart the base station by calling <b>/bs/restart</b>.",
           "nickname": "getRestart",
           "authorizations": [],
           "parameters": [],

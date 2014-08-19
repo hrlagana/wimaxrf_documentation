@@ -14,7 +14,7 @@
         {
           "method": "GET",
           "summary": "",
-          "notes": " Give the mobile mac address which we want to monitor by calling /mobileclient/monitor?macadd=....",
+          "notes": " Give the mobile mac address which we want to monitor by calling <b>/mobileclient/monitor?macadd=....</b>",
           "nickname": "getMonitor",
           "authorizations": [],
           "parameters": [],

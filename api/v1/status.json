@@ -14,7 +14,7 @@
         {
           "method": "GET",
           "summary": "",
-          "notes": "Get the status of Wimaxrf service by calling /bs/status",
+          "notes": "Get the status of Wimaxrf service by calling <b>/bs/status</b>.",
           "nickname": "getMobileclient",
           "authorizations": [],
           "parameters": [],

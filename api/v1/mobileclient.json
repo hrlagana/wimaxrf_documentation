@@ -14,7 +14,7 @@
         {
           "method": "GET",
           "summary": "Get a parameter value",
-          "notes": "In order to get a parameters value, you must give the mac address and the parameter name of the parameter, by calling /mobileclient/get?type=get,macadd=....,param=.... . ",
+          "notes": "In order to get a parameters value, you must give the mac address and the parameter name of the parameter, by calling <b>/mobileclient/get?type=get,macadd=....,param=.... </b>. ",
           "nickname": "getMobileclient",
           "authorizations": [],
           "parameters": [],
@@ -23,7 +23,7 @@
         {
           "method": "PATCH",
           "summary": "Set a parameter value",
-          "notes": "In order to set a parameters value, you must give the mac address, the parameter name and the value of the parameter, by calling /mobileclient/set?type=set,macadd=....,param=....,value=.... . ",
+          "notes": "In order to set a parameters value, you must give the mac address, the parameter name and the value of the parameter, by calling <b>/mobileclient/set?type=set,macadd=....,param=....,value=....</b> .As param you can give one of the following parameters: controlmode, dlmodulation1, dlmodulation2, ulmodulation1, ulmodulation2. <br><br> -If you change the value of dlmodulation1 you must also set the value of dlmodulation2 to the appropriate. <br> -If you change the value of ulmodulation1 you must also set the value of ulmodulation2 to the appropriate. ",
           "nickname": "setMobileclient",
           "authorizations": [],
           "parameters": [],
