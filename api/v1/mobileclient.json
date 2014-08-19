@@ -14,7 +14,7 @@
         {
           "method": "GET",
           "summary": "Get a parameter value",
-          "notes": "In order to get a parameters value, you must give the type, the mac address and the parameter name of the parameter, by calling /mobileclient/get?type=....,macadd=....,type=.... . ",
+          "notes": "In order to get a parameters value, you must give the mac address and the parameter name of the parameter, by calling /mobileclient/get?type=get,macadd=....,param=.... . ",
           "nickname": "getMobileclient",
           "authorizations": [],
           "parameters": [],
@@ -23,7 +23,7 @@
         {
           "method": "PATCH",
           "summary": "Set a parameter value",
-          "notes": "In order to set a parameters value, you must give the type, the mac address, the parameter name and the value of the parameter, by calling /mobileclient/set?type=....,macadd=....,type=....,value=.... . ",
+          "notes": "In order to set a parameters value, you must give the mac address, the parameter name and the value of the parameter, by calling /mobileclient/set?type=set,macadd=....,param=....,value=.... . ",
           "nickname": "setMobileclient",
           "authorizations": [],
           "parameters": [],
