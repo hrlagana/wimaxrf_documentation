@@ -14,7 +14,7 @@
         {
           "method": "GET",
           "summary": "",
-          "notes": "Give the mobile mac address which we want to re-register by calling <b>/mobileclient/monitor?macadd=....</b>",
+          "notes": "Give the mobile mac address which you want to re-register by calling <b>/mobileclient/monitor?macadd=....</b>",
           "nickname": "getReregister",
           "authorizations": [],
           "parameters": [],

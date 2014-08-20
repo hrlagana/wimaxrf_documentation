@@ -14,7 +14,7 @@
         {
           "method": "GET",
           "summary": "Get a parameter value",
-          "notes": "In order to get a parameters value, you must give the mac address and the parameter name of the parameter, by calling <b>/mobileclient/get?type=get,macadd=....,param=.... </b>. ",
+          "notes": "In order to get a parameters value, you must give the mac address and the parameter name of the parameter, by calling <b>/mobileclient/get?type=get,macadd=....,param=....</b> As param you can give one of the following parameters: <table style='width:300px'><tr><td>controlmode</td></tr><tr><td>dlmodulation1</td></tr><tr><td>dlmodulation2</td></tr><tr><td>ulmodulation1</td></tr><tr><td>ulmodulation2</td></tr></table> ",
           "nickname": "getMobileclient",
           "authorizations": [],
           "parameters": [],
@@ -23,7 +23,7 @@
         {
           "method": "PATCH",
           "summary": "Set a parameter value",
-          "notes": "In order to set a parameters value, you must give the mac address, the parameter name and the value of the parameter, by calling <b>/mobileclient/set?type=set,macadd=....,param=....,value=....</b> .As param you can give one of the following parameters: controlmode, dlmodulation1, dlmodulation2, ulmodulation1, ulmodulation2. <br><br> -If you change the value of dlmodulation1 you must also set the value of dlmodulation2 to the appropriate. <br> -If you change the value of ulmodulation1 you must also set the value of ulmodulation2 to the appropriate. ",
+          "notes": "In order to set a parameters value, you must give the mac address, the parameter name and the value of the parameter, by calling <b>/mobileclient/set?type=set,macadd=....,param=....,value=....</b> As param you can give one of the following parameters: <table style='width:300px'><tr><td>controlmode</td></tr><tr><td>dlmodulation1</td></tr><tr><td>dlmodulation2</td></tr><tr><td>ulmodulation1</td></tr><tr><td>ulmodulation2</td></tr></table> <br><br> -If you change the value of dlmodulation1 you must also set the value of dlmodulation2 to the appropriate. <br> -If you change the value of ulmodulation1 you must also set the value of ulmodulation2 to the appropriate. ",
           "nickname": "setMobileclient",
           "authorizations": [],
           "parameters": [],
